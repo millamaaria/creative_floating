@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+}
+.container {
+    box-sizing: border-box;
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: gainsboro;
+    background-image: linear-gradient(bottom right, gainsboro, white);
+    padding: 1em;
+}
+.clearfix {
+    overflow: auto;
+  }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.container .heading {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+}
+.container .image {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+.container .text {
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+}
+.container .image img {
+    padding: 5px;
+    border-left: solid 1px lightgrey;
+    border-top: solid 1px lightgrey;
+    border-right: solid 1px darkgrey;
+    border-bottom: solid 1px darkgrey;
+    background: white;
+    box-shadow: darkgrey 3px;
+    max-width: 100%;
+}
+.container .heading h1 {
+    
+}
+.container .text p {
+
+}
